@@ -432,6 +432,9 @@
     .searchdomain-container input[type="text"]{
       font-size: 15px;
     }
+    .submitted-form{
+      height: 70%;
+    }
   }
 
   @media (max-width: 374px) {
