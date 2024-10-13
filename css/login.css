@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{
+    background-image: url(../img/mainbanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100vh;
+    }
+    a{
+       text-decoration: none; 
+       font-size: 0.8rem;
+       color: rgb(20, 20, 20);
+       margin-left: 28px;
+    }
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#login{
+    height: 456px;
+    width: 950px;
+    background-color: white;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    display: flex;
+}
+/* section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    height: 456px;
+    width: 950px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+} */
+#custom-field img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(92%);
+}
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2 1 0;
+}
+#form-field{
+      
+}
+#form-field  h1{
+    text-align: center;
+    margin-bottom:2rem;
+    font-size: 2rem;
+    margin-top: -5rem;
+    color: #333;
+}
+div#form input{
+    display: block;
+}
+.campo input[type="text"],
+.campo input[type="password"]{
+    padding: 2px 0;
+}
+
+form div.campo{
+    margin: 5px 0;
+}
+input[type="submit"]{
+    display: block;
+    width: 153.45px;
+    margin-left: 28px;
+}

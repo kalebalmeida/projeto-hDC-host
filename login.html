@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <section id="login">
+        <section id="custom-field">
+          <img src="img/login-image.png" alt="imagem-de-login" />
+        </section>
+        <section id="formulario">
+          <div id="form-field">
+              <form autocomplete="on">
+                <h1>Login</h1>
+                <div class="campo">
+                  <span class="material-symbols-outlined">person</span>
+                  <input
+                    type="text"
+                    name="login"
+                    id="ilogin"
+                    placeholder="Email"
+                    autocomplete="on"
+                    maxlength="30"
+                  />
+                </div>
+                <div class="campo">
+                  <span class="material-symbols-outlined">
+                    vpn_key
+                </span>
+                  <input
+                    type="password"
+                    name="senha"
+                    id="senha"
+                    placeholder="Senha"
+                    autocomplete="on"
+                    minlength="8"
+                    maxlength="16"
+                  />
+                </div>
+                <input type="submit" />
+                <a href="#">Esqueceu a senha?</a>
+              </form>
+            </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
