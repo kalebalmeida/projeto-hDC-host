@@ -13,9 +13,9 @@ body{
     }
     a{
        text-decoration: none; 
-       font-size: 0.8rem;
-       color: rgb(20, 20, 20);
-       margin-left: 28px;
+       font-size: 0.7rem;
+       color: rgb(52, 70, 70);
+       margin-left: 33px;
     }
 main{
     width: 100vw;
@@ -70,14 +70,61 @@ div#form input{
 }
 .campo input[type="text"],
 .campo input[type="password"]{
-    padding: 2px 0;
+    padding: 2px 0 0 2px;
 }
-
+.campo{
+    display: flex;
+    gap: 0.4rem;
+}
+.campo span{
+    font-size: 1.7rem;
+}
 form div.campo{
     margin: 5px 0;
 }
 input[type="submit"]{
     display: block;
-    width: 153.45px;
-    margin-left: 28px;
+    width: 155.45px;
+    margin-left: 33px;
+    margin-bottom: 0.3rem;
+    padding: 5px 0;
+    border-radius: 2px;
+    background-image: linear-gradient(45deg, #42BEA3, #49B2D3);
+    border: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 967px){
+    section#login{
+        flex-direction: column;
+        width: 260px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    section#custom-field{
+        background-image: url(../img/login-image.png);
+        background-size: cover;
+        background-position: center center;
+        height: 200px;
+    }
+    div#form-field{
+        justify-content: center;
+    }
+    #custom-field img{
+        display: none;
+    }
+    #form-field  h1{
+        margin-top: 0.5px;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    .campo span{
+        font-size: 1.2rem;
+    }
+    input[type="submit"]{
+        margin-left: 26px;
+        width: 155.25px;
+    }
+    
 }
