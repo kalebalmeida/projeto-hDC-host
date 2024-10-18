@@ -70,7 +70,7 @@ div#form input{
 }
 .campo input[type="text"],
 .campo input[type="password"]{
-    padding: 2px 0 0 2px;
+    padding: 7px 3px;
 }
 .campo{
     display: flex;
@@ -80,14 +80,15 @@ div#form input{
     font-size: 1.7rem;
 }
 form div.campo{
-    margin: 5px 0;
+    margin: 6px 0;
 }
 input[type="submit"]{
     display: block;
-    width: 155.45px;
+    width: 159.45px;
     margin-left: 33px;
     margin-bottom: 0.3rem;
-    padding: 5px 0;
+    padding: 7px 0;
+    font-size: 14px;
     border-radius: 2px;
     background-image: linear-gradient(45deg, #42BEA3, #49B2D3);
     border: transparent;
