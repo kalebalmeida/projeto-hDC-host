@@ -144,6 +144,8 @@ input[type="submit"]{
     }
     div#form-field{
         justify-content: center;
+        margin-left: -15px;
+    
     }
     #custom-field img{
         display: none;
@@ -154,11 +156,11 @@ input[type="submit"]{
         font-size: 1.5rem;
     }
     .campo span{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     input[type="submit"]{
-        margin-left: 26px;
-        width: 155.25px;
+        width: 100%;
+        margin: 0;
     }
     
 }
