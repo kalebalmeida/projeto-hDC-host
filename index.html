@@ -124,14 +124,13 @@
         <section class="searchdomain-container">
           <h2>Qual domínio você quer para o seu site?</h2>
           <p>Verifique se o domínio está disponível</p>
-          <form id="form1" onsubmit="domainSubmited()">
+          <form id="form1">
             <input
               type="text"
               name="domain"
               id="domain"
               placeholder="Digite o domínio desejado"
               required
-              oninput="tiraInteracao()"
             />
             <span id="success-span">Domínio aceito!</span>
             <input type="submit" value="Procurar domínio" />
@@ -174,7 +173,7 @@
           <i class="fas fa-check"></i>
         </div>
         <div>
-          <input type="button" class="ok-button" value="OK" onclick="tiraSubmittedForm()">
+          <input type="button" class="ok-button" value="OK">
         </div>
       </div>
     </div>
